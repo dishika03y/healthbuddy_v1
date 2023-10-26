@@ -1,0 +1,25 @@
+1. Import Bootstrap
+2. Import Fonts -  google fonts - poppins
+3. collect and download assets (like images , vectors etc) - undraw , vecteezy
+
+
+--Navbar -- 
+- Starter section 
+     -> 1 images , text in centre
+
+- Courosal for psychatrist - courosal
+
+- About us  - simple 
+
+- Services we provide - cards
+
+- General faqs -Accordations
+- Footer
+
+-> font cutative
+   - Heading - 5rem
+   - Subheading - 3 rem
+   - description - 1.5 rem
+
+-- create gradients - https://csshero.org/mesher/
+-- colors - #3A7694

@@ -1,0 +1,161 @@
+/* Navigation */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.Logo{
+    height:4rem;
+}
+
+.font1-5{
+    font-size: 1.5rem;
+}
+
+.position_relative{
+    position:relative;
+}
+
+.button-background{
+    background-image:linear-gradient(to right, rgba(58, 118, 148, 1) 0%, rgba(8, 8, 61, 1) 100%);
+    color:white;
+    border-radius: 10px;
+}
+
+.centreAlign{
+    text-align: center;
+}
+
+.carousel-control-prev-icon ,.carousel-control-next-icon {
+    background-color: #3A7694;
+    color: black;
+    border-radius: 50%;
+
+}
+
+.position_nav{
+    width:100%;
+
+   /* position:fixed; */
+   z-index: 3;
+}
+
+.background-clr{
+    background-image:linear-gradient(to right, rgba(58, 118, 148, 1) 0%, rgba(8, 8, 61, 1) 100%);
+    color:white;
+}
+
+    /* cards for services - alignment */
+.service-align{
+    /* margin-bottom: 90px; */
+    /* margin-top: 5px; */
+    margin-left: 20px;
+}
+
+  /* cards --> relationship issue , neuro development disorder, ptsd ---> (align text) */
+.relationship{
+    font-size: 18px;
+}
+.neuro{
+    font-size: 15px;
+}
+.ptsd{
+    font-size: 15px;
+}
+
+
+@media(max-width:1000px){
+     
+    .card-image-top{
+        font-size: 1px;
+    }
+    .card-title{
+        font-size: 10px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .responsive_button{
+        font-size:3px;
+    }
+    .card{
+        margin-left: 4px;
+    }
+}
+@media(max-width:770px){
+     
+    .card-image-top{
+        font-size: 1px;
+    }
+    .card-title{
+        font-size: 6.5px;
+        margin: 0px !important;
+        padding: 0%;
+    }
+    .relationship{
+        font-size: 5px;
+        margin: 5px !important;
+        padding: 0% !important;
+    }
+    .neuro{
+        font-size: 5px;
+        margin: 5px !important;
+        padding: 0% !important;
+    }
+    .ptsd{
+        font-size: 5px;
+        margin: 5px !important;
+        padding: 0% !important;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .responsive_button{
+        font-size:4px;
+        padding: 5%;
+    }
+    .card{
+        margin-left: 1px;
+    }
+    
+}
+
+@media(max-width:500px){
+     
+    .card-image-top{
+        font-size: 1px;
+    }
+    .card-title{
+        font-size: 5px;
+        margin: 0px !important;
+        padding: 0%;
+    }
+    .relationship{
+        font-size: 4px;
+        margin: 5px !important;
+        padding: 0% !important;
+    }
+    .neuro{
+        font-size: 4px;
+        margin: 5px !important;
+        padding: 0% !important;
+    }
+    .ptsd{
+        font-size: 4px;
+        margin: 5px !important;
+        padding: 0% !important;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .responsive_button{
+        font-size:4px;
+        padding: 5%;
+    }
+    .card{
+        margin-left: 0.1% !important;
+        padding: 0% ;
+    }
+}
+/* @media(max-width:576px){
+    
+      
+} */
